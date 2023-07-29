@@ -1,0 +1,33 @@
+:root{
+    --background: #468B97;
+    --button: #EF6262;
+    --button-hover:#F3AA60;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--background);
+}
+.btn{
+    width: 10rem;
+    height: 3.4rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button);
+    box-shadow: inset 10px black;
+}
+.btn:hover{
+    background-color: var(--button-hover);
+    border: none;
+    border-radius: 5px;
+    width: 10.5rem;
+    height: 3.9rem;
+    transition: all 0.3s ease;
+}
