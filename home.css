@@ -44,7 +44,7 @@ body{
     color: var(--text);
 }
 .build{
-    height: 60vh;
+    height: 55vh;
     width: 49.5vw;
     background-image: url('buildings_remove.png');
 }
